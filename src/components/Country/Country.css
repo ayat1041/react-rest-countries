@@ -1,0 +1,9 @@
+.country{
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px;
+    margin: 8px 8px;
+}

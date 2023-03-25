@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
-import { useEffect } from 'react';
+// import { useState } from 'react';
+// import { useEffect } from 'react';
+import Countries from './components/Countries/Countries';
 // import Country from './components/Country/Country';
 // import Person from './components/Person/Person';
 // import Header from './components/Header/Header';
@@ -9,6 +9,7 @@ import { useEffect } from 'react';
 function App() {
   return (
     <div className="App">
+      <Countries></Countries>
     </div>
   );
 }
