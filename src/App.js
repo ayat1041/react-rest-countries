@@ -2,6 +2,8 @@ import './App.css';
 // import { useState } from 'react';
 // import { useEffect } from 'react';
 import Countries from './components/Countries/Countries';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 // import Country from './components/Country/Country';
 // import Person from './components/Person/Person';
 // import Header from './components/Header/Header';
@@ -9,7 +11,9 @@ import Countries from './components/Countries/Countries';
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <Countries></Countries>
+      <Footer></Footer>
     </div>
   );
 }
